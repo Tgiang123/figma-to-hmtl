@@ -5,11 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- reset css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- embed font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- styles -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Thực Hành web 2</title>
   </head>
-  <body>
-    <h1>FIGMA TO HMTL</h1>
+  <body style="height: 10000px;">
+    <!-- tạo thẻ header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- logo -->
+          <img src="./assets/img/Lesson..svg" alt="Lesson." class="logo">
+          <!-- nav -->
+          <!-- cấu trúc nav.nav>ul>li*4>a{Home} -->
+          <nav class="nav">
+            <ul>
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Courses</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- btn action -->
+          <div class="action">
+            <a href="#!" class="btn btn-sign-up">sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
